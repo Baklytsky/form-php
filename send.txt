@@ -1,0 +1,9 @@
+2020-01-10 18:01:49|Andrey|Baklytsky|male|31|||||sleep|||||Это поле было введено до вас|||not at all
+2020-01-10 18:10:34|Andrey|Baklytsky|male|31|1988-07-13|married|high|khreshchatyk 130, 20|sleep<br>play games|1|11-20|Comment|Третья позиция|Это поле было введено до вас|Baklytsky@gmail.com|Million in Two Days|not at all
+2020-01-10 18:12:48|Andrey|Baklytsky|male|31|1988-07-13|married|high|khreshchatyk 130, 20|sleep<br>play games|1||Comment||Это поле было введено до вас|Baklytsky@gmail.com|equipment<br>Million in Two Days|not at all
+2020-01-10 18:14:21|Andrey|Baklytsky|male|31||||||||||Это поле было введено до вас||equipment|not at all
+2020-01-10 18:18:57|Andrey|Baklytsky|male|31||married|high|khreshchatyk 130, 20|play with friends|1|11-20|Comment|Вторая позиция<br>Третья позиция|Это поле было введено до вас|Baklytsky@gmail.com|equipment<br>how to cook dinner<br>million in Two Days|so-so
+2020-01-10 18:32:38|Andrey|Baklytsky|male|82|||||||||Вторая позиция|Это поле было введено до вас||how to cook dinner|it was hard
+2020-01-11 14:27:07|Andrey|Baklytsky|male|31|||||play with friends<br>play games||21-50||Первая позиция<br>Вторая позиция|Это поле было введено до вас|Baklytsky@gmail.com|how to cook dinner<br>million in Two Days|not at all
+2020-01-11 14:28:34|Andrey|Baklytsky|male|31|||||play with friends<br>play games||21-50||Первая позиция<br>Вторая позиция|Это поле было введено до вас|Baklytsky@gmail.com|how to cook dinner<br>million in Two Days|not at all
+2020-01-11 14:28:45|Andrey|Baklytsky|male|31|||||play with friends<br>play games||21-50||Первая позиция<br>Вторая позиция|Это поле было введено до вас|Baklytsky@gmail.com|how to cook dinner<br>million in Two Days|not at all

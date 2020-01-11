@@ -1,0 +1,56 @@
+.wrapper {
+	max-width: 650px;
+	margin: 0 auto;
+}
+
+form .line {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+form .radio {
+	position: relative;
+	top: 2px;
+	margin-right: 2px;
+}
+form .checkbox {
+	position: relative;
+	top: 2px;
+	margin-right: 3px;
+}
+legend {
+	font-weight: bold;
+	font-size: 18px;
+}
+fieldset {
+	margin-bottom: 20px;
+}
+p,h3 {
+	padding: 0;
+	margin: 0; 
+}
+span {
+	font-style: italic;
+}
+.form-block {
+	font-size: 20px;
+	font-weight: bold;
+}
+.age {
+	width: 145px;
+}
+.colum__size {
+	width: 145px;
+}
+.format {
+	width: 180px;
+}
+/* Отображение списков */
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+li  {
+	display: block;
+}
