@@ -1,6 +1,6 @@
 <?php
 
-if(!empty($_POST['name']) && !empty($_POST['surname']) && !empty($_POST['sex']) && !empty($_POST['age'])) {
+if(!empty($_POST['name']) && !empty($_POST['surname']) && !empty($_POST['sex']) && !empty($_POST['age']) && !empty($_POST['email'])) {
     $dt = date('Y-m-d H:i:s');
     $name = htmlspecialchars(trim($_POST['name']));
     $surname = htmlspecialchars(trim($_POST['surname']));
@@ -56,12 +56,12 @@ if(!empty($_POST['name']) && !empty($_POST['surname']) && !empty($_POST['sex']) 
         $spamCategoryArray = '';
     }
 
-    if ((strlen($name) > 2) && (strlen($surname) > 2)) {
+    if ((strlen($name) > 2) && (strlen($surname) > 2) && (preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $email))) {
         file_put_contents('send.txt',"$dt|$name|$surname|$sex|$age|$bday|$status|$social|$address|$hobbyArray|$format|$booksArray|$comment|$positionArray|$enteredBefore|$email|$spamCategoryArray|$task\n", FILE_APPEND);
         $info = 'Thank you! Form submitted';
     }
     else {
-        $info = 'Very short name or surname, please enter another name or surname';
+        $info = 'Please enter your name, surname and email';
     }
 }
 else {
@@ -197,7 +197,7 @@ else {
             </div>
             <div class="line">
                 <p class="form-block"><label for="email">Email:</label></p>
-                <input type="email" id="email" name="email" size="40">
+                <input type="email" id="email" name="email" size="40" required>
             </div>
             <p class="form-block">Хотите подписаться на самую модную рассылку спама?</p>
             <p><span>Виберите категорию</span></p>
@@ -227,5 +227,6 @@ else {
         <input type="submit" value="Отправить">
     </form>
 </section>
+<script src="js/custom.js"></script>
 </body>
 </html>
